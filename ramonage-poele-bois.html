@@ -1,0 +1,233 @@
+<!DOCTYPE html><html lang="en" data-tsd-source="/src/routes/__root.tsx:108:5"><head data-tsd-source="/src/routes/__root.tsx:109:7"><meta charSet="utf-8"/><meta name="viewport" content="width=device-width, initial-scale=1"/><link rel="preload" as="image" href="/logo.png"/><link rel="preload" as="image" href="https://www.costic.com/sites/default/files/media/image/2024-06/costic-logo-footer.png"/><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Oswald:wght@500;600;700&amp;family=IBM+Plex+Sans:wght@400;500;600&amp;family=IBM+Plex+Mono:wght@500&amp;display=swap" data-precedence="default"/><title>Ramonage poêle à bois | Ramoneur Pays Basque &amp; Landes</title><meta name="description" content="Ramonage de poêle à bois, insert et âtre à Bayonne, Anglet, Biarritz, Dax et dans tout le Pays Basque et les Landes. 85 € TTC, certificat de ramonage fourni."/><meta property="og:title" content="Ramonage poêle à bois | Ramoneur Pays Basque &amp; Landes"/><meta property="og:description" content="Ramonage de poêle à bois, insert et âtre à Bayonne, Anglet, Biarritz, Dax et dans tout le Pays Basque et les Landes. 85 € TTC, certificat de ramonage fourni."/><meta property="og:url" content="https://proramonage64.fr/ramonage-poele-bois"/><meta property="og:type" content="website"/><meta property="og:locale" content="fr_FR"/><meta property="og:site_name" content="ProRamonage 64"/><meta property="og:image" content="https://proramonage64.fr/logo.png"/><meta name="twitter:card" content="summary"/><meta name="twitter:image" content="https://proramonage64.fr/logo.png"/><link rel="modulepreload" href="/@id/virtual:tanstack-start-dev-client-entry"/><link rel="icon" href="/logo.png" type="image/png"/><link rel="preconnect" href="https://fonts.googleapis.com"/><link rel="canonical" href="https://proramonage64.fr/ramonage-poele-bois"/><style>
+:root{--soot:#000000;--soot-2:#141414;--ash:rgba(0,0,0,0.72);--parchment:#FFFFFF;--parchment-2:#FFFFFF;--ember:#C41E2A;--ember-2:#E2313D;--brass:#0F7A42;--smoke:rgba(0,0,0,0.5);--smoke-dark:rgba(255,255,255,0.55);--line:rgba(255,255,255,0.16);--line-dark:rgba(0,0,0,0.14);}
+*{box-sizing:border-box;}html{scroll-behavior:smooth;}
+body{margin:0;background:var(--parchment);color:var(--soot);font-family:'IBM Plex Sans',sans-serif;-webkit-font-smoothing:antialiased;}
+h1,h2,h3{font-family:'Oswald',sans-serif;margin:0;letter-spacing:0.01em;text-transform:uppercase;line-height:1.25;}
+.eyebrow{font-family:'IBM Plex Mono',monospace;font-size:12px;letter-spacing:.14em;text-transform:uppercase;color:var(--ember);display:flex;align-items:center;gap:10px;}
+.eyebrow::before{content:"";width:18px;height:1px;background:var(--ember);display:inline-block;}
+a{color:inherit;cursor:pointer;}.wrap{max-width:1120px;margin:0 auto;padding:0 32px;}
+@media(max-width:640px){.wrap{padding:0 20px;}}
+nav{position:sticky;top:0;z-index:50;background:rgba(255,255,255,0.94);backdrop-filter:blur(8px);border-bottom:1px solid var(--line-dark);}
+.navrow{max-width:1120px;margin:0 auto;padding:16px 32px;display:flex;align-items:center;justify-content:space-between;}
+.brand{display:flex;align-items:center;gap:10px;font-family:'Oswald',sans-serif;font-weight:600;font-size:19px;text-decoration:none;}
+.brand-mark{width:30px;height:30px;border-radius:3px;background:var(--soot);display:flex;align-items:center;justify-content:center;}
+.brand-logo{width:34px;height:34px;object-fit:contain;border-radius:3px;}
+.navlinks{display:flex;gap:22px;font-size:13.5px;font-weight:500;}
+.navlinks>a{text-decoration:none;opacity:.75;color:var(--soot);transition:color .15s,opacity .15s;}
+.navlinks>a:hover{opacity:1;color:var(--ember);}
+.navlinks>a:active{color:var(--ember-2);}
+.dropdown{position:relative;}
+.dropdown-menu{display:none;position:absolute;top:28px;left:0;background:#fff;border:1px solid var(--line-dark);border-radius:3px;min-width:240px;padding:8px;box-shadow:0 12px 24px rgba(0,0,0,0.08);z-index:60;}
+.dropdown:hover .dropdown-menu{display:block;}
+.dropdown-menu a{display:block;padding:9px 12px;border-radius:2px;font-size:13.5px;text-decoration:none;opacity:1;color:var(--soot);transition:color .15s,background .15s;}
+.dropdown-menu a:hover{background:var(--parchment-2);color:var(--ember);}
+.dropdown-menu a:active{color:var(--ember-2);}
+.nav-cta{background:var(--soot);color:var(--parchment);padding:10px 18px;border-radius:2px;font-size:14px;font-weight:600;text-decoration:none;transition:background .15s;}
+.nav-cta:hover{background:var(--ember);}
+.nav-cta:active{background:var(--ember-2);}
+@media(max-width:940px){.navlinks{display:none;}}
+.burger{display:none;background:none;border:none;padding:6px;cursor:pointer;}
+.burger span{display:block;width:22px;height:2px;background:var(--soot);margin:5px 0;transition:.2s;}
+@media(max-width:940px){.burger{display:block;}}
+.burger.open{display:none;}
+.mobile-menu{display:none;position:fixed;inset:0;z-index:70;background:var(--parchment);padding:80px 28px 28px;overflow-y:auto;}
+.mobile-menu.open{display:block;}
+.mobile-menu a{display:block;padding:14px 0;border-bottom:1px solid var(--line-dark);text-decoration:none;color:var(--soot);font-size:16px;font-weight:500;transition:color .15s;}
+.mobile-menu a:hover,.mobile-menu a:active{color:var(--ember);}
+.mobile-menu .m-group-label{font-family:'IBM Plex Mono',monospace;font-size:11px;letter-spacing:.1em;text-transform:uppercase;color:var(--ember);padding-top:20px;display:block;}
+.mobile-close{position:fixed;top:18px;right:24px;z-index:71;background:none;border:none;font-size:28px;color:var(--soot);cursor:pointer;display:none;}
+.mobile-close.open{display:block;}
+.trust-strip{background:var(--parchment-2);border-bottom:1px solid var(--line-dark);padding:8px 0;}
+.trust-strip .wrap{display:flex;align-items:center;justify-content:center;gap:10px;flex-wrap:wrap;font-size:12px;color:var(--ash);text-align:center;}
+.trust-strip img{height:18px;background:#fff;padding:2px 5px;border-radius:2px;}
+.page{display:none;}
+.page.active{display:block;}
+.breadcrumb{font-family:'IBM Plex Mono',monospace;font-size:12px;color:var(--smoke);padding:18px 0 0;}
+.breadcrumb a{text-decoration:none;color:var(--smoke);}
+.hero{position:relative;background:var(--soot);color:var(--parchment);padding:88px 0 64px;background-image:linear-gradient(rgba(0,0,0,0.78),rgba(0,0,0,0.86)),url('https://images.unsplash.com/photo-1716908520076-4acd8a09f537?w=1600&auto=format&fit=crop&q=60');background-size:cover;background-position:center;}
+.hero-grid{display:grid;grid-template-columns:1.1fr .9fr;gap:48px;align-items:center;}
+@media(max-width:900px){.hero-grid{grid-template-columns:1fr;}}
+.hero-eyebrow{color:var(--brass);}.hero-eyebrow::before{background:var(--brass);}
+.hero h1{font-size:clamp(32px,4.6vw,52px);line-height:1.25;font-weight:600;margin:16px 0 20px;}
+.hero h1 em{font-style:normal;color:var(--ember-2);}
+.hero p.lede{font-size:17px;line-height:1.6;color:rgba(255,255,255,0.72);max-width:48ch;margin-bottom:28px;}
+.hero-actions{display:flex;gap:14px;flex-wrap:wrap;margin-bottom:36px;}
+.btn-primary{background:var(--ember);color:#fff;padding:14px 24px;border-radius:2px;font-weight:600;font-size:15px;text-decoration:none;border:1px solid var(--ember);display:inline-block;}
+.btn-ghost{color:var(--parchment);padding:14px 20px;border-radius:2px;font-weight:600;font-size:15px;text-decoration:none;border:1px solid rgba(255,255,255,0.3);}
+.price-card{background:var(--soot-2);border:1px solid var(--line);border-radius:4px;padding:26px;}
+.price-card .tag{font-family:'IBM Plex Mono',monospace;font-size:11px;letter-spacing:.1em;text-transform:uppercase;color:var(--smoke-dark);margin-bottom:12px;display:block;}
+.price-row{display:flex;justify-content:space-between;align-items:baseline;padding:12px 0;border-bottom:1px solid var(--line);}
+.price-row:last-of-type{border-bottom:none;}
+.price-row a{text-decoration:none;font-size:14px;color:rgba(255,255,255,0.85);}
+.price-row .amount{font-family:'Oswald',sans-serif;font-weight:600;font-size:18px;color:var(--brass);}
+section.block{padding:76px 0;}
+.section-head{max-width:640px;margin-bottom:44px;}
+.section-head h2{font-size:clamp(24px,3vw,34px);font-weight:600;margin:12px 0 10px;line-height:1.3;}
+.section-head p{color:var(--ash);font-size:15.5px;line-height:1.6;}
+.presta-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:1px;background:var(--line-dark);border:1px solid var(--line-dark);}
+@media(max-width:860px){.presta-grid{grid-template-columns:repeat(2,1fr);}}
+@media(max-width:560px){.presta-grid{grid-template-columns:1fr;}}
+.presta-card{background:var(--parchment-2);padding:28px 24px;display:flex;flex-direction:column;gap:12px;text-decoration:none;color:var(--soot);}
+.presta-card:hover{background:#fff;}
+.presta-num{font-family:'IBM Plex Mono',monospace;font-size:12px;color:var(--ember);}
+.presta-card h3{font-size:18px;font-weight:600;}
+.presta-card p{font-size:14px;color:var(--ash);line-height:1.5;margin:0;flex:1;}
+.presta-price{font-family:'Oswald',sans-serif;font-weight:600;font-size:20px;padding-top:10px;border-top:1px solid var(--line-dark);}
+.zone-band{background:var(--soot);color:var(--parchment);}
+.zone-band .section-head p{color:rgba(255,255,255,0.65);}
+.zone-list{display:flex;flex-wrap:wrap;gap:10px;margin-top:8px;}
+.zone-chip{border:1px solid var(--line);padding:8px 15px;border-radius:2px;font-size:13px;font-family:'IBM Plex Mono',monospace;color:rgba(255,255,255,0.8);text-decoration:none;}
+.zone-chip.priority{border-color:var(--brass);color:var(--brass);}
+.blog-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:22px;}
+@media(max-width:900px){.blog-grid{grid-template-columns:repeat(2,1fr);}}
+@media(max-width:560px){.blog-grid{grid-template-columns:1fr;}}
+.blog-card{border-top:2px solid var(--soot);padding-top:14px;text-decoration:none;color:var(--soot);display:block;}
+.blog-card .b-eyebrow{font-family:'IBM Plex Mono',monospace;font-size:11px;color:var(--ember);letter-spacing:.06em;text-transform:uppercase;margin-bottom:8px;display:block;}
+.blog-card h4{font-family:'Oswald',sans-serif;font-size:16px;font-weight:600;line-height:1.3;margin-bottom:6px;}
+.blog-card p{font-size:13px;color:var(--ash);line-height:1.5;margin:0;}
+footer{background:var(--soot);color:rgba(255,255,255,0.55);padding:40px 0;font-size:13px;}
+.foot-row{display:flex;justify-content:space-between;flex-wrap:wrap;gap:14px;align-items:center;}
+.proto-tag{position:fixed;bottom:18px;right:18px;z-index:100;background:var(--soot);color:var(--brass);font-family:'IBM Plex Mono',monospace;font-size:11px;padding:9px 14px;border-radius:20px;border:1px solid var(--brass);}
+/* sub pages */
+.page-hero{padding:20px 0 56px;}
+.zone-photo{width:100%;height:280px;object-fit:cover;border-radius:4px;margin-top:24px;}
+.zone-photo-pair{display:grid;grid-template-columns:1fr 1fr;gap:16px;margin-top:24px;}
+.zone-photo-pair img{width:100%;height:280px;object-fit:cover;border-radius:4px;}
+@media(max-width:640px){.zone-photo-pair{grid-template-columns:1fr;}}
+.zone-map{width:100%;height:420px;border:1px solid var(--line-dark);border-radius:4px;margin-top:16px;}
+.page-hero h1{font-size:clamp(28px,4vw,42px);font-weight:600;margin:14px 0 16px;line-height:1.3;}
+.page-hero .lede{font-size:16.5px;color:var(--ash);max-width:62ch;line-height:1.65;}
+.price-strip{display:flex;align-items:center;gap:18px;background:var(--soot);color:var(--parchment);border-radius:4px;padding:22px 26px;margin-top:26px;flex-wrap:wrap;}
+.price-strip .amount{font-family:'Oswald',sans-serif;font-size:32px;font-weight:700;color:var(--brass);}
+.price-strip .amount small{font-family:'IBM Plex Sans';font-size:13px;color:var(--smoke-dark);font-weight:500;}
+.price-strip .btn-primary{margin-left:auto;padding:13px 22px;font-size:14.5px;}
+.two-col{display:grid;grid-template-columns:1fr 1fr;gap:48px;}
+@media(max-width:860px){.two-col{grid-template-columns:1fr;}}
+ul.check{list-style:none;padding:0;margin:0;display:flex;flex-direction:column;gap:12px;}
+ul.check li{display:flex;gap:10px;font-size:15px;color:var(--ash);line-height:1.5;}
+ul.check li::before{content:"✓";color:var(--ember);font-weight:700;flex-shrink:0;}
+.faq-item{border-top:1px solid var(--line-dark);padding:18px 0;}
+.faq-item h3{font-size:15.5px;font-weight:600;margin-bottom:8px;}
+.faq-item p{font-size:14.5px;color:var(--ash);line-height:1.6;margin:0;}
+.related{display:flex;gap:12px;flex-wrap:wrap;margin-top:18px;}
+.related a{border:1px solid var(--line-dark);padding:10px 16px;border-radius:2px;text-decoration:none;font-size:13.5px;color:var(--soot);}
+table{width:100%;border-collapse:collapse;background:#fff;border:1px solid var(--line-dark);border-radius:4px;overflow:hidden;}
+thead th{text-align:left;font-family:'IBM Plex Mono',monospace;font-size:11.5px;text-transform:uppercase;letter-spacing:.06em;color:var(--smoke);background:var(--parchment-2);padding:14px 20px;border-bottom:1px solid var(--line-dark);}
+tbody td{padding:16px 20px;border-bottom:1px solid var(--line-dark);font-size:15px;}
+tbody tr:last-child td{border-bottom:none;}
+tbody td.price{font-family:'Oswald',sans-serif;font-weight:600;font-size:18px;color:var(--ember);text-align:right;}
+tbody td a{text-decoration:none;font-weight:500;}
+.notes{margin-top:20px;font-size:13.5px;color:var(--smoke);line-height:1.6;}
+.reassure{display:grid;grid-template-columns:repeat(3,1fr);gap:1px;background:var(--line-dark);border:1px solid var(--line-dark);margin-top:48px;}
+@media(max-width:760px){.reassure{grid-template-columns:1fr;}}
+.reassure div{background:var(--parchment-2);padding:24px;}
+.reassure h3{font-size:15.5px;font-weight:600;margin-bottom:8px;}
+.reassure p{font-size:13.5px;color:var(--ash);margin:0;line-height:1.5;}
+.dept-block{margin-bottom:44px;}
+.dept-head{display:flex;align-items:baseline;gap:14px;margin-bottom:18px;border-bottom:2px solid var(--soot);padding-bottom:10px;}
+.dept-head h2{font-size:22px;font-weight:600;}
+.dept-head span{font-family:'IBM Plex Mono',monospace;font-size:12px;color:var(--smoke);}
+.priority-row{display:flex;gap:10px;flex-wrap:wrap;margin-bottom:16px;}
+.priority-chip{background:var(--soot);color:var(--brass);border:1px solid var(--brass);padding:9px 16px;border-radius:2px;font-size:13.5px;font-family:'IBM Plex Mono',monospace;text-decoration:none;}
+.commune-grid{display:grid;grid-template-columns:repeat(6,1fr);gap:2px;background:var(--line-dark);border:1px solid var(--line-dark);}
+@media(max-width:900px){.commune-grid{grid-template-columns:repeat(4,1fr);}}
+@media(max-width:640px){.commune-grid{grid-template-columns:repeat(2,1fr);}}
+.commune-grid a{background:#fff;padding:11px 14px;font-size:13.5px;text-decoration:none;color:var(--soot);}
+.commune-grid a:hover{background:var(--parchment-2);}
+.note-box{background:var(--soot);color:rgba(255,255,255,0.75);padding:22px 26px;border-radius:4px;font-size:14px;line-height:1.6;margin-top:32px;}
+.note-box b{color:var(--brass);}
+.contact-wrap{display:grid;grid-template-columns:1fr 1fr;gap:56px;background:var(--parchment-2);border:1px solid var(--line-dark);border-radius:4px;padding:48px;}
+@media(max-width:860px){.contact-wrap{grid-template-columns:1fr;padding:30px;}}
+.contact-info h3{font-size:22px;font-weight:600;margin-bottom:14px;}
+.contact-info p{color:var(--ash);font-size:15px;line-height:1.6;margin-bottom:22px;}
+.contact-method{display:flex;gap:12px;align-items:flex-start;margin-bottom:16px;}
+.contact-method .m-label{font-family:'IBM Plex Mono',monospace;font-size:11px;color:var(--smoke);text-transform:uppercase;letter-spacing:.08em;}
+.contact-method .m-value{font-size:15px;font-weight:600;}
+form{display:flex;flex-direction:column;gap:14px;}
+.field label{display:block;font-size:12px;font-family:'IBM Plex Mono',monospace;color:var(--smoke);margin-bottom:6px;text-transform:uppercase;letter-spacing:.05em;}
+.field input, .field select, .field textarea{width:100%;padding:12px 13px;border:1px solid var(--line-dark);border-radius:2px;background:#fff;font-family:'IBM Plex Sans',sans-serif;font-size:14.5px;color:var(--soot);}
+.field textarea{resize:vertical;min-height:70px;}
+.field-row{display:grid;grid-template-columns:1fr 1fr;gap:14px;}
+@media(max-width:480px){.field-row{grid-template-columns:1fr;}}
+.submit-btn{margin-top:4px;background:var(--ember);color:#fff;border:none;padding:15px;border-radius:2px;font-weight:600;font-size:15px;cursor:pointer;}
+.form-note{font-size:12.5px;color:var(--smoke);margin-top:2px;}
+.confirm{display:none;background:var(--brass);color:#fff;border:1px solid var(--brass);padding:14px 16px;border-radius:2px;font-size:14px;margin-top:6px;}
+article{background:#fff;border:1px solid var(--line-dark);border-radius:4px;padding:34px;margin-bottom:24px;scroll-margin-top:90px;}
+article .b-eyebrow{font-family:'IBM Plex Mono',monospace;font-size:11px;color:var(--ember);letter-spacing:.08em;text-transform:uppercase;margin-bottom:10px;display:block;}
+article h2{font-size:22px;font-weight:600;margin-bottom:14px;line-height:1.2;}
+article p{font-size:15px;color:var(--ash);line-height:1.7;margin:0 0 12px;}
+article p:last-child{margin-bottom:0;}
+/* avis clients */
+.rating-chip{display:flex;align-items:center;gap:6px;font-size:12px;color:var(--ash);}
+.rating-chip .stars{color:#E8A33D;letter-spacing:1px;font-size:13px;}
+.rating-chip b{color:var(--soot);}
+.reviews-band{background:var(--soot);color:var(--parchment);}
+.reviews-band .section-head p{color:rgba(255,255,255,0.65);}
+.reviews-head-row{display:flex;align-items:flex-end;justify-content:space-between;flex-wrap:wrap;gap:20px;margin-bottom:36px;}
+.reviews-score{display:flex;align-items:center;gap:14px;}
+.reviews-score .num{font-family:'Oswald',sans-serif;font-size:40px;font-weight:700;color:var(--brass);}
+.reviews-score .stars{color:#E8A33D;font-size:18px;letter-spacing:2px;}
+.reviews-score small{display:block;color:rgba(255,255,255,0.55);font-size:12.5px;margin-top:2px;}
+.reviews-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:1px;background:var(--line);border:1px solid var(--line);}
+@media(max-width:860px){.reviews-grid{grid-template-columns:1fr;}}
+.review-card{background:var(--soot-2);padding:24px;display:flex;flex-direction:column;gap:12px;}
+.review-top{display:flex;align-items:center;gap:12px;}
+.review-avatar{width:38px;height:38px;border-radius:50%;background:var(--brass);color:#fff;display:flex;align-items:center;justify-content:center;font-family:'Oswald',sans-serif;font-weight:600;font-size:15px;flex-shrink:0;}
+.review-id{display:flex;flex-direction:column;}
+.review-id .name{font-size:14.5px;font-weight:600;}
+.review-id .meta{font-size:12px;color:rgba(255,255,255,0.5);}
+.review-card .stars{color:#E8A33D;font-size:14px;letter-spacing:1.5px;}
+.review-card p{font-size:14px;line-height:1.6;color:rgba(255,255,255,0.78);margin:0;}
+.reviews-note{margin-top:20px;font-size:12.5px;color:rgba(255,255,255,0.4);}
+
+/* Les pages sont désormais de vraies routes : toujours visibles. */
+.page{display:block;}
+
+</style>
+</head><body data-tsd-source="/src/routes/__root.tsx:112:7"><nav data-tsd-source="/src/components/SiteChrome.tsx:21:7"><div class="navrow" data-tsd-source="/src/components/SiteChrome.tsx:22:9"><a class="brand" href="/" data-tsd-source="/src/components/SiteChrome.tsx:23:11"><img src="/logo.png" alt="Logo ProRamonage 64, ramoneur au Pays Basque" class="brand-logo" data-tsd-source="/src/components/SiteChrome.tsx:24:13"/>ProRamonage 64</a><div class="navlinks" data-tsd-source="/src/components/SiteChrome.tsx:27:11"><a href="/ramonage" data-tsd-source="/src/components/SiteChrome.tsx:28:13">Ramonage</a><div class="dropdown" data-tsd-source="/src/components/SiteChrome.tsx:29:13"><a href="/ramonage" data-tsd-source="/src/components/SiteChrome.tsx:30:15">Prestations</a><div class="dropdown-menu" data-tsd-source="/src/components/SiteChrome.tsx:31:15"><a href="/ramonage-poele-bois" data-tsd-source="/src/components/SiteChrome.tsx:33:19">Ramonage poêle à bois</a><a href="/ramonage-insert" data-tsd-source="/src/components/SiteChrome.tsx:33:19">Ramonage insert</a><a href="/ramonage-cheminee" data-tsd-source="/src/components/SiteChrome.tsx:33:19">Ramonage cheminée</a><a href="/ramonage-foyer-ouvert" data-tsd-source="/src/components/SiteChrome.tsx:33:19">Cheminée / foyer ouvert</a><a href="/ramonage-poele-granules" data-tsd-source="/src/components/SiteChrome.tsx:33:19">Poêle à granulés</a><a href="/ramonage-chaudiere-gaz" data-tsd-source="/src/components/SiteChrome.tsx:33:19">Chaudière gaz</a><a href="/ramonage-chaudiere-fioul" data-tsd-source="/src/components/SiteChrome.tsx:33:19">Chaudière fioul</a><a href="/debistrage" data-tsd-source="/src/components/SiteChrome.tsx:33:19">Débistrage</a><a href="/diagnostic-camera" data-tsd-source="/src/components/SiteChrome.tsx:33:19">Diagnostic caméra</a></div></div><a href="/tarifs" data-tsd-source="/src/components/SiteChrome.tsx:39:13">Tarifs</a><a href="/zones" data-tsd-source="/src/components/SiteChrome.tsx:40:13">Zones d&#x27;intervention</a><a href="/conseils" data-tsd-source="/src/components/SiteChrome.tsx:41:13">Conseils</a><a href="/certification" data-tsd-source="/src/components/SiteChrome.tsx:42:13">Certification</a></div><a class="nav-cta" href="/contact" data-tsd-source="/src/components/SiteChrome.tsx:44:11">Prendre rendez-vous</a><button class="burger" id="burgerBtn" aria-label="Ouvrir le menu" aria-expanded="false" data-tsd-source="/src/components/SiteChrome.tsx:47:11"><span data-tsd-source="/src/components/SiteChrome.tsx:54:13"></span><span data-tsd-source="/src/components/SiteChrome.tsx:55:13"></span><span data-tsd-source="/src/components/SiteChrome.tsx:56:13"></span></button></div></nav><button class="mobile-close" aria-label="Fermer le menu" data-tsd-source="/src/components/SiteChrome.tsx:61:7">×</button><div class="mobile-menu" id="mobileMenu" data-tsd-source="/src/components/SiteChrome.tsx:68:7"><a href="/" data-tsd-source="/src/components/SiteChrome.tsx:69:9">Accueil</a><a href="/ramonage" data-tsd-source="/src/components/SiteChrome.tsx:70:9">Ramonage</a><span class="m-group-label" data-tsd-source="/src/components/SiteChrome.tsx:71:9">Prestations</span><a href="/ramonage-poele-bois" data-tsd-source="/src/components/SiteChrome.tsx:73:11">Ramonage poêle à bois</a><a href="/ramonage-insert" data-tsd-source="/src/components/SiteChrome.tsx:73:11">Ramonage insert</a><a href="/ramonage-cheminee" data-tsd-source="/src/components/SiteChrome.tsx:73:11">Ramonage cheminée</a><a href="/ramonage-foyer-ouvert" data-tsd-source="/src/components/SiteChrome.tsx:73:11">Cheminée / foyer ouvert</a><a href="/ramonage-poele-granules" data-tsd-source="/src/components/SiteChrome.tsx:73:11">Poêle à granulés</a><a href="/ramonage-chaudiere-gaz" data-tsd-source="/src/components/SiteChrome.tsx:73:11">Chaudière gaz</a><a href="/ramonage-chaudiere-fioul" data-tsd-source="/src/components/SiteChrome.tsx:73:11">Chaudière fioul</a><a href="/debistrage" data-tsd-source="/src/components/SiteChrome.tsx:73:11">Débistrage</a><a href="/diagnostic-camera" data-tsd-source="/src/components/SiteChrome.tsx:73:11">Diagnostic caméra</a><span class="m-group-label" data-tsd-source="/src/components/SiteChrome.tsx:77:9">Infos</span><a href="/tarifs" data-tsd-source="/src/components/SiteChrome.tsx:78:9">Tarifs</a><a href="/zones" data-tsd-source="/src/components/SiteChrome.tsx:79:9">Zones d&#x27;intervention</a><a href="/conseils" data-tsd-source="/src/components/SiteChrome.tsx:80:9">Conseils</a><a href="/certification" data-tsd-source="/src/components/SiteChrome.tsx:81:9">Certification</a><a href="/contact" style="color:var(--ember);font-weight:600" data-tsd-source="/src/components/SiteChrome.tsx:82:9">Prendre rendez-vous →</a></div><div class="trust-strip" data-tsd-source="/src/components/SiteChrome.tsx:87:7"><div class="wrap" data-tsd-source="/src/components/SiteChrome.tsx:88:9"><img src="https://www.costic.com/sites/default/files/media/image/2024-06/costic-logo-footer.png" alt="Logo COSTIC" data-tsd-source="/src/components/SiteChrome.tsx:89:11"/><span data-tsd-source="/src/components/SiteChrome.tsx:93:11">Ramoneur formé et certifié par le <b data-tsd-source="/src/components/SiteChrome.tsx:94:47">COSTIC</b> (Comité Scientifique et Technique des Industries Climatiques) — Titre de Ramoneur-Fumiste.</span></div></div><div class="page active" data-tsd-source="/src/components/RawPage.tsx:49:10">
+  <div class="wrap breadcrumb"><a href="/">Accueil</a> / <a href="/">Prestations</a> / Poêle à bois &amp; insert</div>
+  <header class="page-hero"><div class="wrap">
+    <span class="eyebrow">Ramonage poêle à bois &amp; insert</span>
+    <h1>Ramonage de poêle à bois, insert et âtre dans le Pays Basque</h1>
+    <p class="lede">Le ramonage d'un poêle à bois ou d'un insert est une obligation légale, à réaliser au moins une fois par an. ProRamonage 64 intervient sur Bayonne, Anglet, Biarritz et l'ensemble du Pays Basque et des Landes pour le ramonage complet de votre conduit, de votre âtre et de votre foyer.</p>
+    <div class="price-strip"><div class="amount">85 € <small>TTC</small></div><span style="font-size:14px;color:rgba(255,255,255,0.7);">Déplacement inclus — certificat fourni</span><a class="btn-primary" href="/contact">Prendre rendez-vous</a></div>
+    <img class="zone-photo" src="https://commons.wikimedia.org/wiki/Special:FilePath/Stacked_wood.JPG?width=1400" alt="Bûches de bois de chauffage empilées">
+  </div></header>
+  <section class="block"><div class="wrap two-col">
+    <div><div class="section-head"><h2>Ce que comprend l'intervention</h2></div>
+      <ul class="check">
+        <li>Ramonage mécanique complet du conduit de fumée, par le haut ou par le bas selon l'accès</li>
+        <li>Nettoyage de l'âtre et du corps de chauffe du poêle ou de l'insert</li>
+        <li>Vérification des joints et de l'étanchéité du foyer</li>
+        <li>Recommandation des pièces à changer si besoin</li>
+        <li>Remise d'un certificat de ramonage conforme, exigé par votre assurance habitation</li>
+      </ul>
+    </div>
+    <div><div class="section-head"><h2>Pourquoi ramoner son poêle à bois chaque année</h2></div>
+      <p style="color:var(--ash);font-size:15px;line-height:1.65;">Un poêle à bois ou un insert non ramoné accumule de la suie et du bistre dans le conduit, ce qui augmente le risque de feu de cheminée et d'intoxication au monoxyde de carbone. Le ramonage régulier améliore aussi le rendement de votre installation et prolonge sa durée de vie. La loi impose au minimum un ramonage par an pour les appareils à bois, parfois deux selon votre commune.</p>
+    </div>
+  </div></section>
+  <section class="block"><div class="wrap">
+    <div class="section-head"><h2>Les problèmes les plus courants sur un poêle à bois ou un insert</h2><p>Un conduit ou un âtre mal entretenu se manifeste souvent par ces signes, à surveiller entre deux ramonages.</p></div>
+    <ul class="check">
+      <li><b>Vitre du poêle qui noircit rapidement</b> : souvent lié à un bois trop humide ou une combustion incomplète</li>
+      <li><b>Fumée qui refoule dans la pièce à l'allumage</b> : signe d'un mauvais tirage, parfois dû à un conduit encrassé</li>
+      <li><b>Odeur de fumée froide entre deux utilisations</b> : indique un problème d'étanchéité ou de tirage du conduit</li>
+      <li><b>Consommation de bois anormalement élevée</b> : un conduit encrassé réduit le rendement de l'appareil</li>
+      <li><b>Traces de bistre noir et brillant sur les parois du conduit</b> : nécessite souvent un débistrage en complément du ramonage</li>
+      <li><b>Joint de porte usé ou craquelé</b> : laisse entrer de l'air parasite et perturbe la combustion</li>
+    </ul>
+  </div></section>
+  <section class="block" style="background:var(--parchment-2);"><div class="wrap">
+    <div class="section-head"><h2>Questions fréquentes</h2></div>
+    <div class="faq-item"><h3>Quelle est la différence entre un poêle à bois et un insert ?</h3><p>Un poêle à bois est un appareil autonome posé dans la pièce, tandis qu'un insert s'installe dans un foyer de cheminée existant. Les deux nécessitent un ramonage annuel du conduit et un entretien de l'âtre.</p></div>
+    <div class="faq-item"><h3>Le ramonage se fait-il par le haut ou par le bas ?</h3><p>Selon l'accessibilité de votre toiture et de votre conduit, notre ramoneur choisit la méthode la plus adaptée pour un résultat optimal, en toute sécurité.</p></div>
+    <div class="faq-item"><h3>Combien de temps dure une intervention ?</h3><p>Comptez généralement 30 à 45 minutes pour le ramonage d'un poêle à bois ou d'un insert.</p></div>
+    <div class="faq-item"><h3>Pourquoi ma vitre noircit-elle même avec du bois sec ?</h3><p>Cela peut venir d'un manque d'air secondaire, d'un réglage de tirage inadapté, ou d'un conduit qui commence à s'encrasser — un diagnostic lors du ramonage permet d'identifier la cause exacte.</p></div>
+    <div class="faq-item"><h3>Quel type de bois limite l'encrassement du conduit ?</h3><p>Un bois sec (moins de 20% d'humidité), fendu et stocké à l'abri pendant au moins 18 à 24 mois limite fortement la formation de bistre et de suie dans le conduit.</p></div>
+    <div class="related">
+      <a href="/ramonage-foyer-ouvert">Ramonage cheminée foyer ouvert →</a>
+      <a href="/tarifs">Voir tous les tarifs →</a>
+      <a href="/conseils#entretien-bois">Conseils d'entretien →</a>
+    </div>
+  </div></section></div><footer data-tsd-source="/src/components/SiteChrome.tsx:102:7"><div class="wrap foot-row" data-tsd-source="/src/components/SiteChrome.tsx:103:9"><span data-tsd-source="/src/components/SiteChrome.tsx:104:11">© 2026 ProRamonage 64 — FAUCON MARCO E.I. — 06 30 34 28 10</span><span data-tsd-source="/src/components/SiteChrome.tsx:105:11">Ramonage Bayonne · Anglet · Biarritz · Dax</span></div></footer></body></html>
