@@ -72,9 +72,11 @@ section.block{padding:76px 0;}
 .section-head h2{font-size:clamp(24px,3vw,34px);font-weight:600;margin:12px 0 10px;line-height:1.3;}
 .section-head p{color:var(--ash);font-size:15.5px;line-height:1.6;}
 .presta-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:1px;background:var(--line-dark);border:1px solid var(--line-dark);}
+.presta-grid>a:nth-child(7):last-child{grid-column:2;}
+@media(max-width:860px){.presta-grid>a:nth-child(7):last-child{grid-column:auto;}}
 @media(max-width:860px){.presta-grid{grid-template-columns:repeat(2,1fr);}}
 @media(max-width:560px){.presta-grid{grid-template-columns:1fr;}}
-.presta-card{background:var(--parchment-2);padding:28px 24px;display:flex;flex-direction:column;gap:12px;text-decoration:none;color:var(--soot);}
+.presta-card{background:var(--parchment-2);padding:28px 24px;display:flex;flex-direction:column;gap:12px;text-decoration:none;color:var(--soot);min-height:100%;}
 .presta-card:hover{background:#fff;}
 .presta-num{font-family:'IBM Plex Mono',monospace;font-size:12px;color:var(--ember);}
 .presta-card h3{font-size:18px;font-weight:600;}
@@ -88,11 +90,18 @@ section.block{padding:76px 0;}
 .blog-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:22px;}
 @media(max-width:900px){.blog-grid{grid-template-columns:repeat(2,1fr);}}
 @media(max-width:560px){.blog-grid{grid-template-columns:1fr;}}
-.blog-card{border-top:2px solid var(--soot);padding-top:14px;text-decoration:none;color:var(--soot);display:block;}
+.blog-card{border-top:2px solid var(--brass);padding-top:14px;text-decoration:none;color:var(--soot);display:block;}
 .blog-card .b-eyebrow{font-family:'IBM Plex Mono',monospace;font-size:11px;color:var(--ember);letter-spacing:.06em;text-transform:uppercase;margin-bottom:8px;display:block;}
 .blog-card h4{font-family:'Oswald',sans-serif;font-size:16px;font-weight:600;line-height:1.3;margin-bottom:6px;}
 .blog-card p{font-size:13px;color:var(--ash);line-height:1.5;margin:0;}
-footer{background:var(--soot);color:rgba(255,255,255,0.55);padding:40px 0;font-size:13px;}
+footer{background:var(--soot);color:rgba(255,255,255,0.55);padding:36px 0 28px;font-size:13px;}
+.foot-brand{display:flex;align-items:center;gap:10px;margin-bottom:22px;padding-bottom:22px;border-bottom:1px solid rgba(255,255,255,0.12);}
+.foot-brand img{width:32px;height:32px;object-fit:contain;border-radius:3px;}
+.foot-brand span{font-family:'Oswald',sans-serif;font-weight:600;font-size:17px;color:var(--parchment);}
+.foot-cols{display:flex;justify-content:space-between;flex-wrap:wrap;gap:18px 32px;}
+.foot-cols a{color:inherit;text-decoration:none;}
+.foot-cols a:hover{color:var(--parchment);}
+.foot-tag{font-family:'IBM Plex Mono',monospace;font-size:11.5px;letter-spacing:.06em;text-transform:uppercase;color:var(--brass);border:1px solid var(--brass);padding:5px 10px;border-radius:2px;display:inline-block;}
 .foot-row{display:flex;justify-content:space-between;flex-wrap:wrap;gap:14px;align-items:center;}
 .proto-tag{position:fixed;bottom:18px;right:18px;z-index:100;background:var(--soot);color:var(--brass);font-family:'IBM Plex Mono',monospace;font-size:11px;padding:9px 14px;border-radius:20px;border:1px solid var(--brass);}
 /* sub pages */
@@ -112,7 +121,7 @@ footer{background:var(--soot);color:rgba(255,255,255,0.55);padding:40px 0;font-s
 @media(max-width:860px){.two-col{grid-template-columns:1fr;}}
 ul.check{list-style:none;padding:0;margin:0;display:flex;flex-direction:column;gap:12px;}
 ul.check li{display:flex;gap:10px;font-size:15px;color:var(--ash);line-height:1.5;}
-ul.check li::before{content:"✓";color:var(--ember);font-weight:700;flex-shrink:0;}
+ul.check li::before{content:"✓";color:var(--brass);font-weight:700;flex-shrink:0;}
 .faq-item{border-top:1px solid var(--line-dark);padding:18px 0;}
 .faq-item h3{font-size:15.5px;font-weight:600;margin-bottom:8px;}
 .faq-item p{font-size:14.5px;color:var(--ash);line-height:1.6;margin:0;}
@@ -205,7 +214,14 @@ article p:last-child{margin-bottom:0;}
       <p>Le ramonage retire la suie qui se dépose naturellement dans le conduit lors de la combustion. Le débistrage, plus technique, s'attaque au bistre : une matière proche du goudron durci, qui se forme lorsque le conduit n'est pas entretenu régulièrement ou que le bois utilisé est humide.</p><p>Quand le bistre s'est trop accumulé, la brosse de ramonage glisse dessus sans l'accrocher : un débistrage mécanique ou chimique devient alors nécessaire avant de reprendre un entretien annuel classique.</p>
     </article>
     <div class="related"><a href="/conseil-ramonage-obligatoire">Le ramonage est-il obligatoire ? →</a><a href="/conseil-entretien-cheminees">L'entretien des cheminées →</a><a href="/conseil-reglementation">La réglementation du ramonage →</a><a href="/conseil-certificat-ramonage">Le certificat de ramonage →</a><a href="/contact">Programmer une intervention →</a></div>
-  </div></section></div><footer data-tsd-source="/src/components/SiteChrome.tsx:102:7"><div class="wrap foot-row" data-tsd-source="/src/components/SiteChrome.tsx:103:9"><span data-tsd-source="/src/components/SiteChrome.tsx:104:11">© 2026 ProRamonage 64 — FAUCON MARCO E.I. — 06 71 19 53 74</span><span data-tsd-source="/src/components/SiteChrome.tsx:105:11">Ramonage Bayonne · Anglet · Biarritz · Dax</span></div></footer><script>
+  </div></section></div><footer><div class="wrap">
+  <div class="foot-brand"><img src="/logo.png" alt="Logo ProRamonage 64"><span>ProRamonage 64</span></div>
+  <div class="foot-cols">
+    <span>© 2026 ProRamonage 64 — FAUCON MARCO E.I.<br>Ramonage Pays Basque et Sud des Landes</span>
+    <span><a href="tel:+33671195374">06 71 19 53 74</a><br><a href="mailto:contact@proramonage64.fr">contact@proramonage64.fr</a></span>
+    <span class="foot-tag">Ramoneur certifié COSTIC</span>
+  </div>
+</div></footer><script>
 (function(){
   var burger=document.getElementById('burgerBtn');
   var menu=document.getElementById('mobileMenu');
