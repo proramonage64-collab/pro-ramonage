@@ -216,9 +216,11 @@ article p:last-child{margin-bottom:0;}
         <div class="contact-method"><div><div class="m-label">Disponibilité</div><div class="m-value">Lundi–Samedi, 8h–18h</div></div></div>
         <div class="contact-method"><div><div class="m-label">Email</div><div class="m-value">contact@proramonage64.fr</div></div></div>
       </div>
-      <form id="rdvForm">
+      <form id="rdvForm" name="rdv" method="POST" data-netlify="true" netlify-honeypot="bot-field">
+        <input type="hidden" name="form-name" value="rdv">
+        <p style="display:none"><label>Ne pas remplir : <input name="bot-field"></label></p>
         <div class="field"><label>Prestation souhaitée</label>
-          <select id="f-presta">
+          <select id="f-presta" name="presta">
             <option>Ramonage bois / insert — 85€</option>
             <option>Ramonage foyer ouvert — 85€</option>
             <option>Ramonage + entretien granulés — 180€</option>
@@ -229,21 +231,21 @@ article p:last-child{margin-bottom:0;}
           </select>
         </div>
         <div class="field-row">
-          <div class="field"><label>Prénom</label><input type="text" id="f-prenom" placeholder="Votre prénom" required></div>
-          <div class="field"><label>Nom</label><input type="text" id="f-nom" placeholder="Votre nom" required></div>
+          <div class="field"><label>Prénom</label><input type="text" id="f-prenom" name="prenom" placeholder="Votre prénom" required></div>
+          <div class="field"><label>Nom</label><input type="text" id="f-nom" name="nom" placeholder="Votre nom" required></div>
         </div>
         <div class="field-row">
-          <div class="field"><label>Téléphone</label><input type="tel" id="f-tel" placeholder="06 00 00 00 00" required></div>
-          <div class="field"><label>Email</label><input type="email" id="f-email" placeholder="vous@exemple.fr"></div>
+          <div class="field"><label>Téléphone</label><input type="tel" id="f-tel" name="telephone" placeholder="06 00 00 00 00" required></div>
+          <div class="field"><label>Email</label><input type="email" id="f-email" name="email" placeholder="vous@exemple.fr"></div>
         </div>
-        <div class="field"><label>Adresse</label><input type="text" id="f-adresse" placeholder="N° et rue"></div>
+        <div class="field"><label>Adresse</label><input type="text" id="f-adresse" name="adresse" placeholder="N° et rue"></div>
         <div class="field-row">
-          <div class="field"><label>Code postal</label><input type="text" id="f-cp" placeholder="64100"></div>
-          <div class="field"><label>Ville</label><input type="text" id="f-ville" placeholder="Bayonne"></div>
+          <div class="field"><label>Code postal</label><input type="text" id="f-cp" name="cp" placeholder="64100"></div>
+          <div class="field"><label>Ville</label><input type="text" id="f-ville" name="ville" placeholder="Bayonne"></div>
         </div>
         <button type="submit" class="submit-btn">Envoyer ma demande</button>
-        <div class="form-note">En cliquant, votre logiciel email s'ouvre avec la demande pré-remplie, prête à envoyer à contact@proramonage64.fr.</div>
-        <div class="confirm" id="confirmMsg">✓ Email pré-rempli ouvert — il ne reste qu'à l'envoyer depuis votre boîte mail.</div>
+        <div class="form-note">En cliquant, votre demande est envoyée directement à contact@proramonage64.fr.</div>
+        <div class="confirm" id="confirmMsg">✓ Demande envoyée ! Nous vous rappelons sous 24h.</div>
       </form>
     </div>
   </div></section></div><footer><div class="wrap">
@@ -275,6 +277,32 @@ article p:last-child{margin-bottom:0;}
     });
     document.addEventListener('click',function(e){
       if(!dropdown.contains(e.target))dropdown.classList.remove('open');
+    });
+  }
+
+  var rdvForm=document.getElementById('rdvForm');
+  if(rdvForm){
+    rdvForm.addEventListener('submit',function(e){
+      e.preventDefault();
+      var data=new FormData(rdvForm);
+      var body=new URLSearchParams(data).toString();
+      var btn=rdvForm.querySelector('.submit-btn');
+      if(btn){btn.disabled=true;btn.textContent='Envoi en cours...';}
+      fetch('/',{
+        method:'POST',
+        headers:{'Content-Type':'application/x-www-form-urlencoded'},
+        body:body
+      }).then(function(res){
+        if(!res.ok)throw new Error('Netlify form submission failed: '+res.status);
+        var confirmMsg=document.getElementById('confirmMsg');
+        if(confirmMsg)confirmMsg.style.display='block';
+        rdvForm.reset();
+        if(btn){btn.disabled=false;btn.textContent='Envoyer ma demande';}
+      }).catch(function(err){
+        console.error(err);
+        alert("Une erreur est survenue lors de l'envoi. Merci de nous appeler au 06 71 19 53 74.");
+        if(btn){btn.disabled=false;btn.textContent='Envoyer ma demande';}
+      });
     });
   }
 })();
