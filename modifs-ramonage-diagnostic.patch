@@ -1,0 +1,65 @@
+diff --git a/diagnostic-camera.html b/diagnostic-camera.html
+index 0af66a5..7b72f10 100644
+--- a/diagnostic-camera.html
++++ b/diagnostic-camera.html
+@@ -1,4 +1,4 @@
+-<!DOCTYPE html><html lang="fr" data-tsd-source="/src/routes/__root.tsx:108:5"><head data-tsd-source="/src/routes/__root.tsx:109:7"><meta charSet="utf-8"/><meta name="viewport" content="width=device-width, initial-scale=1"/><link rel="preload" as="image" href="/logo.png"/><link rel="preload" as="image" href="https://www.costic.com/sites/default/files/media/image/2024-06/costic-logo-footer.png"/><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Oswald:wght@500;600;700&amp;family=IBM+Plex+Sans:wght@400;500;600&amp;family=IBM+Plex+Mono:wght@500&amp;display=swap" data-precedence="default"/><title>Diagnostic caméra conduit | Ramoneur Pays Basque &amp; Landes</title><meta name="description" content="Inspection et diagnostic caméra de conduit de cheminée dans le Pays Basque et les Landes. 70 € TTC, offert lorsqu&#x27;il est couplé à un ramonage."/><meta property="og:title" content="Diagnostic caméra conduit | Ramoneur Pays Basque &amp; Landes"/><meta property="og:description" content="Inspection et diagnostic caméra de conduit de cheminée dans le Pays Basque et les Landes. 70 € TTC, offert lorsqu&#x27;il est couplé à un ramonage."/><meta property="og:url" content="https://proramonage64.fr/diagnostic-camera"/><meta property="og:type" content="website"/><meta property="og:locale" content="fr_FR"/><meta property="og:site_name" content="ProRamonage 64"/><meta property="og:image" content="https://proramonage64.fr/logo.png"/><meta name="twitter:card" content="summary"/><meta name="twitter:image" content="https://proramonage64.fr/logo.png"/><link rel="modulepreload" href="/@id/virtual:tanstack-start-dev-client-entry"/><link rel="icon" href="/logo.png" type="image/png"/><link rel="preconnect" href="https://fonts.googleapis.com"/><link rel="canonical" href="https://proramonage64.fr/diagnostic-camera"/><style>
++<!DOCTYPE html><html lang="fr" data-tsd-source="/src/routes/__root.tsx:108:5"><head data-tsd-source="/src/routes/__root.tsx:109:7"><meta charSet="utf-8"/><meta name="viewport" content="width=device-width, initial-scale=1"/><link rel="preload" as="image" href="/logo.png"/><link rel="preload" as="image" href="https://www.costic.com/sites/default/files/media/image/2024-06/costic-logo-footer.png"/><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Oswald:wght@500;600;700&amp;family=IBM+Plex+Sans:wght@400;500;600&amp;family=IBM+Plex+Mono:wght@500&amp;display=swap" data-precedence="default"/><title>Diagnostic caméra conduit | Ramoneur Pays Basque &amp; Landes</title><meta name="description" content="Inspection et diagnostic caméra de conduit de fumée dans le Pays Basque et les Landes. 70 € TTC, offert lorsqu&#x27;il est couplé à un ramonage."/><meta property="og:title" content="Diagnostic caméra conduit | Ramoneur Pays Basque &amp; Landes"/><meta property="og:description" content="Inspection et diagnostic caméra de conduit de fumée dans le Pays Basque et les Landes. 70 € TTC, offert lorsqu&#x27;il est couplé à un ramonage."/><meta property="og:url" content="https://proramonage64.fr/diagnostic-camera"/><meta property="og:type" content="website"/><meta property="og:locale" content="fr_FR"/><meta property="og:site_name" content="ProRamonage 64"/><meta property="og:image" content="https://proramonage64.fr/logo.png"/><meta name="twitter:card" content="summary"/><meta name="twitter:image" content="https://proramonage64.fr/logo.png"/><link rel="modulepreload" href="/@id/virtual:tanstack-start-dev-client-entry"/><link rel="icon" href="/logo.png" type="image/png"/><link rel="preconnect" href="https://fonts.googleapis.com"/><link rel="canonical" href="https://proramonage64.fr/diagnostic-camera"/><style>
+ :root{--soot:#000000;--soot-2:#141414;--ash:rgba(0,0,0,0.72);--parchment:#FFFFFF;--parchment-2:#FFFFFF;--ember:#C41E2A;--ember-2:#E2313D;--brass:#0F7A42;--smoke:rgba(0,0,0,0.5);--smoke-dark:rgba(255,255,255,0.55);--line:rgba(255,255,255,0.16);--line-dark:rgba(0,0,0,0.14);}
+ *{box-sizing:border-box;}html{scroll-behavior:smooth;}
+ body{margin:0;background:var(--parchment);color:var(--soot);font-family:'IBM Plex Sans',sans-serif;-webkit-font-smoothing:antialiased;}
+@@ -207,7 +207,6 @@ article p:last-child{margin-bottom:0;}
+     <h1>Diagnostic et passage caméra de conduit dans le Pays Basque</h1>
+     <p class="lede">Avant un achat immobilier, un tubage, ou en cas de doute sur l'état de votre conduit, ProRamonage 64 réalise un diagnostic complet par inspection caméra à Bayonne, Anglet, Biarritz et dans toute la région.</p>
+     <div class="price-strip"><div class="amount">70 € <small>seul</small></div><span style="font-size:14px;color:rgba(255,255,255,0.7);">Offert si couplé à un ramonage ou un débistrage</span><a class="btn-primary" href="/contact">Programmer une intervention</a></div>
+-    <img class="zone-photo" src="https://commons.wikimedia.org/wiki/Special:FilePath/Flexibles_Endoskop.jpg?width=1400" alt="Caméra d'inspection de conduit de cheminée">
+   </div></header>
+   <section class="block"><div class="wrap two-col">
+     <div><div class="section-head"><h2>Ce que comprend l'intervention</h2></div>
+diff --git a/ramonage.html b/ramonage.html
+index 92906e2..b4fe9bd 100644
+--- a/ramonage.html
++++ b/ramonage.html
+@@ -1,4 +1,4 @@
+-<!DOCTYPE html><html lang="fr" data-tsd-source="/src/routes/__root.tsx:108:5"><head data-tsd-source="/src/routes/__root.tsx:109:7"><meta charSet="utf-8"/><meta name="viewport" content="width=device-width, initial-scale=1"/><link rel="preload" as="image" href="/logo.png"/><link rel="preload" as="image" href="https://www.costic.com/sites/default/files/media/image/2024-06/costic-logo-footer.png"/><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Oswald:wght@500;600;700&amp;family=IBM+Plex+Sans:wght@400;500;600&amp;family=IBM+Plex+Mono:wght@500&amp;display=swap" data-precedence="default"/><title>Ramonage Pays Basque &amp; Landes | Entreprise de ramonage</title><meta name="description" content="Entreprise de ramonage dans le Pays Basque, les Pyrénées-Atlantiques et le Sud des Landes : conduit, cheminée, poêle, insert, chaudière. Certificat fourni."/><meta property="og:title" content="Ramonage Pays Basque &amp; Landes | Entreprise de ramonage"/><meta property="og:description" content="Entreprise de ramonage dans le Pays Basque, les Pyrénées-Atlantiques et le Sud des Landes : conduit, cheminée, poêle, insert, chaudière. Certificat fourni."/><meta property="og:url" content="https://proramonage64.fr/ramonage"/><meta property="og:type" content="website"/><meta property="og:locale" content="fr_FR"/><meta property="og:site_name" content="ProRamonage 64"/><meta property="og:image" content="https://proramonage64.fr/logo.png"/><meta name="twitter:card" content="summary"/><meta name="twitter:image" content="https://proramonage64.fr/logo.png"/><link rel="modulepreload" href="/@id/virtual:tanstack-start-dev-client-entry"/><link rel="icon" href="/logo.png" type="image/png"/><link rel="preconnect" href="https://fonts.googleapis.com"/><link rel="canonical" href="https://proramonage64.fr/ramonage"/><style>
++<!DOCTYPE html><html lang="fr" data-tsd-source="/src/routes/__root.tsx:108:5"><head data-tsd-source="/src/routes/__root.tsx:109:7"><meta charSet="utf-8"/><meta name="viewport" content="width=device-width, initial-scale=1"/><link rel="preload" as="image" href="/logo.png"/><link rel="preload" as="image" href="https://www.costic.com/sites/default/files/media/image/2024-06/costic-logo-footer.png"/><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Oswald:wght@500;600;700&amp;family=IBM+Plex+Sans:wght@400;500;600&amp;family=IBM+Plex+Mono:wght@500&amp;display=swap" data-precedence="default"/><title>Ramonage Pays Basque &amp; Landes | Entreprise de ramonage</title><meta name="description" content="Entreprise de ramonage dans le Pays Basque, les Pyrénées-Atlantiques et le Sud des Landes : conduit, poêle, insert, chaudière. Certificat fourni."/><meta property="og:title" content="Ramonage Pays Basque &amp; Landes | Entreprise de ramonage"/><meta property="og:description" content="Entreprise de ramonage dans le Pays Basque, les Pyrénées-Atlantiques et le Sud des Landes : conduit, poêle, insert, chaudière. Certificat fourni."/><meta property="og:url" content="https://proramonage64.fr/ramonage"/><meta property="og:type" content="website"/><meta property="og:locale" content="fr_FR"/><meta property="og:site_name" content="ProRamonage 64"/><meta property="og:image" content="https://proramonage64.fr/logo.png"/><meta name="twitter:card" content="summary"/><meta name="twitter:image" content="https://proramonage64.fr/logo.png"/><link rel="modulepreload" href="/@id/virtual:tanstack-start-dev-client-entry"/><link rel="icon" href="/logo.png" type="image/png"/><link rel="preconnect" href="https://fonts.googleapis.com"/><link rel="canonical" href="https://proramonage64.fr/ramonage"/><style>
+ :root{--soot:#000000;--soot-2:#141414;--ash:rgba(0,0,0,0.72);--parchment:#FFFFFF;--parchment-2:#FFFFFF;--ember:#C41E2A;--ember-2:#E2313D;--brass:#0F7A42;--smoke:rgba(0,0,0,0.5);--smoke-dark:rgba(255,255,255,0.55);--line:rgba(255,255,255,0.16);--line-dark:rgba(0,0,0,0.14);}
+ *{box-sizing:border-box;}html{scroll-behavior:smooth;}
+ body{margin:0;background:var(--parchment);color:var(--soot);font-family:'IBM Plex Sans',sans-serif;-webkit-font-smoothing:antialiased;}
+@@ -218,7 +218,7 @@ article p:last-child{margin-bottom:0;}
+       <h2>Choisissez votre appareil</h2>
+       <p>Chaque conduit a ses spécificités : accès, méthode de ramonage, entretien du corps de chauffe.</p>
+     </div>
+-    <img class="zone-photo" src="/entretien-poele-granules-ramonage.jpg" alt="Entretien professionnel d'un appareil de chauffage lors d'un ramonage" loading="lazy" style="margin-bottom:28px;">
++    <img class="zone-photo" src="/entretien-poele-granules-ramonage.jpg" alt="Entretien professionnel d'un appareil de chauffage lors d'un ramonage" loading="lazy" style="margin-bottom:28px;object-position:20% center;">
+     <div class="appareil-grid">
+       <a class="presta-card" href="#poele-insert"><span class="presta-num">01</span><h3>Poêle à bois &amp; insert</h3><p>Ramonage du conduit, de l'âtre et du corps de chauffe.</p></a>
+       <a class="presta-card" href="#cheminee"><span class="presta-num">02</span><h3>Cheminée &amp; foyer ouvert</h3><p>Toutes les configurations de cheminée, ouverte ou fermée.</p></a>
+@@ -301,25 +301,13 @@ article p:last-child{margin-bottom:0;}
+     </div>
+     </div></section>
+ 
+-  <section class="block" style="background:var(--parchment-2);"><div class="wrap two-col">
+-    <div><div class="section-head"><h2>Le ramonage est une obligation annuelle</h2></div>
+-      <p style="color:var(--ash);font-size:15px;line-height:1.65;">Le règlement sanitaire départemental impose au moins un ramonage par an (deux pour les appareils à bois), avec remise d'un certificat de conformité exigé par votre assurance habitation.</p>
+-    </div>
+-    <div><div class="section-head"><h2>Le certificat de ramonage</h2></div>
+-      <p style="color:var(--ash);font-size:15px;line-height:1.65;">Remis à chaque intervention. Détail sur la page <a href="/certification">certification →</a></p>
+-      <div class="related">
+-        <a href="/tarifs">Voir tous les tarifs de ramonage →</a>
+-        <a href="/zones">Zones d'intervention →</a>
+-        <a href="/conseils">Conseils de ramonage →</a>
+-        <a href="/contact">Programmer une intervention →</a>
+-      </div>
+-    </div>
+-  </div></section></div></section></div><footer><div class="wrap">
++  </div></section></div><footer><div class="wrap">
+   <div class="foot-brand"><img src="/logo.png" alt="Logo ProRamonage 64"><span>ProRamonage 64</span></div>
+   <div class="foot-cols">
+     <span>© 2026 ProRamonage 64 — FAUCON MARCO E.I.<br>Ramonage Pays Basque et Sud des Landes</span>
+     <span><a href="tel:+33671195374">06 71 19 53 74</a><br><a href="mailto:contact@proramonage64.fr">contact@proramonage64.fr</a></span>
+     <span class="foot-tag">Ramoneur certifié COSTIC</span>
++    <span class="foot-tag" style="color:var(--ember);border-color:var(--ember);">Le ramonage est une obligation annuelle</span>
+   </div>
+ </div></footer><script>
+ (function(){
